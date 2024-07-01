@@ -1,4 +1,6 @@
 name: sample-python
+features:
+    - buildpack-stack=ubuntu-18
 services:
 - environment_slug: python
   github:
